@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "GangWeaponsFix"/>
+	<Id value = "GangWeaponsFix"/>
+	<Version value = "e1.5.4"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<Official value="false" />
+	<DependedModules>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value = "GangWeaponsFixSubModule"/>
+			<DLLName value = "GangWeaponsFix.dll"/>
+			<SubModuleClassType value = "GangWeaponsFix.GangWeaponsFixSubModule"/>			
+			<Tags>
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+	</Xmls>
+</Module>
